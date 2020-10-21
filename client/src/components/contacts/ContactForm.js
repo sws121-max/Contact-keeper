@@ -1,4 +1,3 @@
-// import { on } from 'nodemon';
 import React, { useState, useContext, useEffect } from 'react';
 import ContactContext from '../../context/contact/contactContext';
 const ContactForm = () => {
@@ -44,7 +43,7 @@ const ContactForm = () => {
 	};
 	return (
 		<form onSubmit={onSubmit}>
-			<h2 className="text-primary">
+			<h2 cl assName="text-primary">
 				{current ? 'Edit Contact' : 'Add Contact'}
 			</h2>
 			<input
