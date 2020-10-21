@@ -24,8 +24,7 @@ const Contacts = () => {
 									timeout={500}
 									classNames="item"
 								>
-									{' '}
-									<ContactItem contact={contact} />{' '}
+									<ContactItem contact={contact} />
 								</CSSTransition>
 						  ))
 						: contacts.map(contact => (
